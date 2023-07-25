@@ -1,0 +1,18 @@
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+.center {
+    display: block;
+    height: 150px;
+    width: 300px;
+    color: blue;
+    background-color: rgb(231, 190, 141);
+    /* text-decoration: line-through; */
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    position: absolute;
+    
+    
+}

@@ -1,0 +1,59 @@
+/* display: inline-block элемент, который продолжает находиться в строке ( inline ), но при этом может иметь важные свойства блока */
+/* box-sizing: border-box в указанную ширину и высоту также включены и марджины с паддингами, по дефолту не включены */
+
+.yellow {
+    color: yellow;
+    font-size: 80px;
+    background-color: aquamarine;
+    height: 200px;
+    width: 500px;
+    border: solid;
+    padding: 20px 40px 60px 80px;
+    box-sizing: border-box;
+    margin: 20px 40px 60px 80px;
+    display: inline-block;
+
+}
+
+.green {
+    color: green;
+    font-size: 80px;
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 500px;
+    padding: 20px 40px 60px 80px;
+    border: solid;
+    border-color: aquamarine;
+    margin-top: 100px;
+    box-sizing: border-box;
+    margin: 20px 40px 60px 80px;
+    display: inline-block
+
+}
+.red {
+    color: red;
+    font-size: 80px;
+    background-color: blueviolet;
+    height: 200px;
+    width: 500px;
+    border: solid;
+    border-color: blue;
+    margin: 20px 40px 60px 80px;
+    padding: 20px 40px 60px 80px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+.pink {
+    color: pink;
+    font-size: 80px;
+    height: 200px;
+    width: 500px;
+    border: solid;
+    background-color: cornflowerblue;
+    border-color: blanchedalmond;
+    margin: 20px 40px 60px 80px;
+    padding: 20px 40px 60px 80px;
+    box-sizing: border-box;
+    display: inline-block;
+}
